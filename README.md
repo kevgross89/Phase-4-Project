@@ -4,7 +4,9 @@
 
 ## General Overview
 
-The stakeholder for this project is CNN (Cable News Network) which is a multinational 24 hour cable news channel. From their [website](https://www.cnn.com/about) CNN's mission is below:
+The stakeholder for this project is CNN (Cable News Network) which is a multinational 24 hour cable news channel. Specifically, this project is a tool that their news and reporting department could use to help identify real news vs. fake news.
+
+From their [website](https://www.cnn.com/about) CNN's mission is below:
 
 > **To Inform, Engage and Empower the World**
 >* We are truth-seekers and storytellers. 
@@ -22,15 +24,15 @@ With so many sources of information online, it has become increasingly difficult
 
 Companies such as CNN pride themselves on reporting news that is real because if they were to report on news that is fake, their reputation would be severely damaged, and people would no longer turn to them for news. According to an [article](https://www.cnn.com/2021/05/31/health/fake-news-study) from CNN, "as many as three in four Americans overestimate their ability to spot false headlines – and the worse they are at it, the more likely they are to share fake news".
 
-This project looks at over 40,000 articles from 2017, about half of which are real and half of which are fake.
+This project looks at over 40,000 articles from 2017, about half of which are real and half of which are fake. The data was pulled from [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?datasetId=572515&sortBy=voteCount) and includes the articles in text format in two different CSV files - one for real news and the other for fake news.
 
 ## Data Preparation
 
-For this project, the data underwent common data cleaning tasks for text data: standardizing case, removing punctuation, and tokenizing. From there, the data had all of the single letter words removed since they did not contain useful information. Additional data preparation was used during the modeling phase and in some cases it was included, and in others it was not.
+For this project, the data underwent common data cleaning tasks for text data: standardizing case, removing punctuation, and tokenizing. From there, all of the single letter words removed since they did not contain useful information. Additional data modification was used during the modeling phase to help maximize the accuracy of the model.
 
 ## Modeling
 
-This project starts with a baseline model using a `TfidfVectorizer` and `MultinomialNB` classifier using `Cross_Val_Score`. From there, the model iteratively builds eliminating and adding features such as stopwords, stemming and lemmatizing words, engineering features, and adding in additional features. `NLTK` was used frequently throughout the modeling and preparation phases. 
+This project starts with a baseline model using a `TfidfVectorizer` and `MultinomialNB` classifier using `Cross_Val_Score`. From there, the model iteratively builds eliminating and adding features such as stopwords, stemming and lemmatizing words, engineering features, and adding in additional features. `NLTK` was used frequently throughout the modeling and preparation phases.
 
 ## Evaluation
 
