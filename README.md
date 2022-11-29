@@ -1,8 +1,6 @@
 # Phase-4-Project
 
-<div>
-<img src="attachment:CNN-logo.png" width="500"/>
-</div>
+![CNNImage]()
 
 ## General Overview
 
