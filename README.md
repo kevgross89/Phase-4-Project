@@ -1,6 +1,6 @@
 # Phase-4-Project
 
-![CNNImage]()
+![CNNImage](https://github.com/kevgross89/Phase-4-Project/blob/main/Images/CNN-logo.png)
 
 ## General Overview
 
