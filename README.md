@@ -49,4 +49,12 @@ This project starts with a baseline model using a `TfidfVectorizer` and `Multino
 | Bigrams and Trigrams Lemmatized Engineered |         97.37%        |
 |     Engineered with Additional Features    |         97.97%        |
 
+|              **Type of Model**             | **Training Accuracy** | **Testing Accuracy** |
+|:------------------------------------------:|:---------------------:|:--------------------:|
+|             Engineered Features            |         97.79%        |        98.05%        |
+|       Bigrams and Trigrams Engineered      |         97.56%        |        97.72%        |
+|   Bigrams and Trigrams Stemmed Engineered  |         97.40%        |        97.61%        |
+| Bigrams and Trigrams Lemmatized Engineered |         97.37%        |        97.62%        |
+|     Engineered with Additional Features    |         97.97%        |        98.26%        |
+
 The final model performed very well - it was able to identify real news and fake news correctly 97.97% of the time on the training data and 98.29% of the time on the testing data.
