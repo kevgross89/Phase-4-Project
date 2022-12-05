@@ -59,7 +59,9 @@ This project starts with a baseline model using a `TfidfVectorizer` and `Multino
 
 The final model performed very well - it was able to identify real news and fake news correctly 97.97% of the time on the training data and 98.26% of the time on the testing data.
 
-This model should be utilized by CNN when they are scraping the web looking for news to report on. CNN will be able to save manpower by having an automated machine comb through news articles and be able to accurately predict whether or not an article is real news or fake news over 98% of the time.
+## Recommendation
+
+This model should be utilized by CNN when they are scraping the web looking for news to report on. By using this automated process, CNN will be able to save time, money and resources by having a machine comb through news articles and be able to **accurately predict whether or not an article is real news or fake news over 98% of the time**.
 
 Additionally, our data was a bit dated so we could attempt to find newer data. News and technology changes at a rapid pace so it is hard to know if our model is still relevant. Furthermore, we could try to add in more engineered features such as average word length and maximum word length. These statistically engineered features will help our model become more accurate. Lastly, we could look at when each article was published to see if there is a time series analysis that we could run to see if real news and fake news stories have changed over time. Maybe fake news articles spike around elections or midterms, or maybe they operate in some sort of cyclical pattern. 
 
